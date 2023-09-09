@@ -5,8 +5,12 @@ post = [
   {
     "author": "saint"   
     "title": "My first blog post",
-    "content":"This is my very first blog post, how exciting!",
-
+    "content":"This is my very first blog post, how exciting!"
+  },
+  {
+    "author": "saint"   
+    "title": "My first blog post",
+    "content":"This is my very first blog post, how exciting!"
   }
 ]
 
