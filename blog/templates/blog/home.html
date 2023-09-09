@@ -7,6 +7,9 @@
 </head>
 <body>
   {% for post in posts %} 
+      <h1>{{ post.author }}</h1>
+      <p>Title: {{post.title}} </p>
+      <p>{{ post.content }}</p>
   {% endfor %}</h1>
 </body>
 </html>
