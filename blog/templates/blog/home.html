@@ -14,5 +14,12 @@
       <p class="article-content">{{ post.content }}</p>
     </div>
   </article>
-  {% endfor %}</h1>
+  {% endfor %}
+  {% if is_paginated %}
+
+    {% if page_obj.has_previous %}
+    <a class="btn btn-outline-info mb-4" href="?page=1">First</a>
+        {% endif %}
+  
+    {% endif %}
 {% endblock content %}
